@@ -1,7 +1,5 @@
 <h2 id="system-startup">🚀 System Startup</h2> 
 
-<br/>
-
 <h3 id="developer-mode">🧪 Developer Mode</h3>
 
 #### Using command line
@@ -29,5 +27,3 @@ docker rm -f micro-backend-container
 1. Copy `application-dev.properties` to create `application-prod.properties`.
 2. Remove Swagger configurations from the properties file.
 3. Follow the instructions in the [Micro-Docker-Config repository](https://github.com/ahmettoguz/Micro-Docker-Config) to configure Docker for production.
-
-<hr/>
