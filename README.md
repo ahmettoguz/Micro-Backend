@@ -12,15 +12,15 @@
   
 <h2 id="system-startup">🚀 System Startup</h2> 
 
-<h3 id="developer-mode">🧪 Developer Mode</h3> 
+<h3 id="developer-mode">🧪 Developer Mode</h3>
 
-Using command line
+#### Using command line
 
 ```
 mvnw spring-boot:run
 ```
 
-Using Docker
+#### Using Docker
 
 ```
 docker build -t micro-backend-image .
@@ -32,12 +32,11 @@ docker ps -a
 docker rm -f micro-backend-container
 ```
 
-
 <h3 id="production-mode">⚡Production Mode</h3> 
 
-* Create src\main\resources\application-prod.properties file as copy of the application-dev.properties.
-* Remove Swagger configs.
-* Visit the [Micro-Docker-Config repository](https://github.com/ahmettoguz/Micro-Docker-Config) and run the commands in the System Startup section.
+1. Copy `application-dev.properties` to create `application-prod.properties`.
+2. Remove Swagger configurations from the properties file.
+3. Follow the instructions in the [Micro-Docker-Config repository](https://github.com/ahmettoguz/Micro-Docker-Config) to configure Docker for production.
 
 <hr/> 
 <br/>
