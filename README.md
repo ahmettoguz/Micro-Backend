@@ -9,12 +9,14 @@
 ## 🔍 Table of Contents
 
 - [About Project](#intro)
+- [Technologies](#technologies)
 - [Features](#features)
+- [Releases](#releases)
 - [System Startup](#system-startup)
   - [Developer Mode](#developer-mode)
   - [Production Mode](#production-mode)
 - [Endpoint Documentation](#endpoint-documentation)
-- [Releases](#releases)
+- [Contributors](#contributors)
  
 <br/>
 
@@ -50,6 +52,14 @@ This project efficiently manages backend operations via Docker and microservices
 
 <br/>
 
+<h2 id="releases">🚢 Releases</h2> 
+
+[![.](https://img.shields.io/badge/1.1.0-233838?style=flat&label=release&labelColor=470137&color=233838)](https://github.com/ahmettoguz/Micro-Backend/tree/release/1.1.0)
+
+[![.](https://img.shields.io/badge/1.0.0-233838?style=flat&label=release&labelColor=470137&color=233838)](https://github.com/ahmettoguz/Micro-Backend/tree/release/1.0.0)
+
+<br/>
+
 <h2 id="system-startup">🚀 System Startup</h2> 
 
 <h3 id="developer-mode">🧪 Developer Mode</h3>
@@ -77,14 +87,6 @@ docker rm -f micro-backend-container
 1. Copy `application-dev.properties` to create `application-prod.properties`.
 2. Remove Swagger configurations from the properties file.
 3. Follow the instructions in the [Micro-Docker-Config repository](https://github.com/ahmettoguz/Micro-Docker-Config) to configure Docker for production.
-
-<br/>
-
-<h2 id="releases">🚢 Releases</h2> 
-
-[![.](https://img.shields.io/badge/1.1.0-233838?style=flat&label=release&labelColor=470137&color=233838)](https://github.com/ahmettoguz/Micro-Backend/tree/release/1.1.0)
-
-[![.](https://img.shields.io/badge/1.0.0-233838?style=flat&label=release&labelColor=470137&color=233838)](https://github.com/ahmettoguz/Micro-Backend/tree/release/1.0.0)
 
 <br/>
 
