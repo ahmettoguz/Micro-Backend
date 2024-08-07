@@ -3,7 +3,7 @@
 <br>
 
 <div align="center">
-    <img width=300 src="src/main/resources/assets/img/banner.png">
+    <img width=300 src="src/main/resources/assets/banner/banner.png">
 </div>
 
 ## 🔍 Table of Contents
@@ -86,13 +86,13 @@ docker rm -f micro-backend-container
 
 1. Copy `application-dev.properties` to create `application-prod.properties`.
 2. Remove Swagger configurations from the properties file.
-3. Follow the instructions in the [Micro-Docker-Config repository](https://github.com/ahmettoguz/Micro-Docker-Config) to configure Docker for production.
+3. Follow the instructions in the [`Micro-Docker-Config repository`](https://github.com/ahmettoguz/Micro-Docker-Config) to configure Docker for production.
 
 <br/>
 
 <h2 id="endpoint-documentation">📍 Endpoint Documentation</h2>
 
-![endpoint-doc](https://github.com/user-attachments/assets/dd8aa4ac-a7f0-41aa-987d-d62f4c6f35ef)
+![endpoint-doc](src/main/resources/assets/endpoint-doc/endpoint-doc.png)
 
 <br/>
 
