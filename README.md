@@ -5,7 +5,7 @@
 ## 🔍 Table of Contents
 
 - [Features](#features)
-- [Limitations](#limitations)
+- [Next Release Features](#next-release-features)
 - [System Startup](#system-startup)
   - [Developer Mode](#developer-mode)
   - [Production Mode](#production-mode)
@@ -21,11 +21,11 @@
 
 <br/>
 
-<h2 id="limitations">🚧 Limitations</h2>
+<h2 id="next-release-features">🚧 Next Release Features</h2>
 
-- SSL has not been set up for the backend.
-- There is no database integration.
-- There are no automated tests.
+- TLS/HTTPS support.
+- Database integration.
+- Automated tests.
 
 <br/>
   
