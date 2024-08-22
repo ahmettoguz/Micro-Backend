@@ -51,7 +51,7 @@ This project efficiently manages backend operations via Docker and microservices
 + **External Communication:** Manage communication with frontend.
 + **Swagger Documentation:** Comprehensive API documentation integrated for easier development.
 + **Environment Variables:** Configurations have been adjusted for enhanced flexibility.
-+ **Dockerized Application:** The application is containerized for consistent deployment and scaling.d.
++ **Dockerized Application:** The application is containerized for consistent deployment and scaling.
 
 <br/>
 
