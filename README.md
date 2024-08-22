@@ -48,13 +48,16 @@ This project efficiently manages backend operations via Docker and microservices
 
 <h2 id="features">🔥 Features</h2>
 
-+ Swagger documentation has been integrated.
-+ The application has been Dockerized.
-+ Environment variables have been adjusted.
++ **External Communication:** Manage communication with frontend.
++ **Swagger Documentation:** Comprehensive API documentation integrated for easier development.
++ **Environment Variables:** Configurations have been adjusted for enhanced flexibility.
++ **Dockerized Application:** The application is containerized for consistent deployment and scaling.d.
 
 <br/>
 
 <h2 id="releases">🚢 Releases</h2> 
+
+&nbsp; [![.](https://img.shields.io/badge/1.2.0-233838?style=flat&label=release&labelColor=470137&color=077521)](https://github.com/ahmettoguz/Micro-Backend/tree/release/1.2.0)
 
 &nbsp; [![.](https://img.shields.io/badge/1.1.0-233838?style=flat&label=release&labelColor=470137&color=077521)](https://github.com/ahmettoguz/Micro-Backend/tree/release/1.1.0)
 
