@@ -16,6 +16,7 @@
   - [Developer Mode](#developer-mode)
   - [Production Mode](#production-mode)
 - [Endpoint Documentation](#endpoint-documentation)
+- [Endpoint Manual Testing with Postman](#endpoint-manual-test)
 - [Contributors](#contributors)
  
 <br/>
@@ -44,10 +45,16 @@ This project efficiently manages backend operations via Docker and microservices
 
 &nbsp; [![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white)](https://swagger.io/)
 
+### Test
+
+&nbsp; [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
+
 <br/>
 
 <h2 id="features">🔥 Features</h2>
 
++ **TLS/HTTPS:** Centeralized TLS/HTTPS support for all services with selfsigned certificate.
++ **Postman Endpoint Collection:** Postman collection added for ensure validation of all API endpoints.
 + **External Communication:** Manage communication with frontend.
 + **Swagger Documentation:** Comprehensive API documentation integrated for easier development.
 + **Environment Variables:** Configurations have been adjusted for enhanced flexibility.
@@ -56,6 +63,8 @@ This project efficiently manages backend operations via Docker and microservices
 <br/>
 
 <h2 id="releases">🚢 Releases</h2> 
+
+&nbsp; [![.](https://img.shields.io/badge/1.2.1-233838?style=flat&label=release&labelColor=470137&color=077521)](https://github.com/ahmettoguz/Micro-Backend/tree/release/1.2.1)
 
 &nbsp; [![.](https://img.shields.io/badge/1.2.0-233838?style=flat&label=release&labelColor=470137&color=077521)](https://github.com/ahmettoguz/Micro-Backend/tree/release/1.2.0)
 
@@ -80,7 +89,7 @@ mvnw spring-boot:run
 ```
 docker build -t micro-backend-image .
 
-docker run -d -p 8080:80 --name micro-backend-container micro-backend-image
+docker run -d -p 8081:80 --name micro-backend-container micro-backend-image
 
 docker ps -a
 
@@ -89,8 +98,10 @@ docker rm -f micro-backend-container
 
 <h3 id="production-mode">⚡Production Mode</h3> 
 
-1. Copy `application-dev.properties` to create `application-prod.properties`.
-2. Follow the instructions in the [`Micro-Docker-Config repository`](https://github.com/ahmettoguz/Micro-Docker-Config) to configure Docker for production.
+* Copy `application-dev.properties` to create `application-prod.properties`.
+* change `app.var.appMode` to `prod`.
+* change `server.port` to `80`.
+* Follow the instructions in the [`Micro-Docker-Config repository`](https://github.com/ahmettoguz/Micro-Docker-Config) to configure Docker for production.
 
 <br/>
 
@@ -100,8 +111,14 @@ docker rm -f micro-backend-container
 
 <br/>
 
+<h2 id="endpoint-manual-test">🔬 Endpoint Manual Testing with Postman</h2>
+
+To run the Postman tests, first import the Postman collection file from the path ./src/main/resources/postman-request/ into Postman by selecting the "Import" option. After importing, locate the collection in Postman, open it, and execute the individual requests by clicking the "Send" button for each. Review the responses to ensure that the endpoints are functioning as expected.
+
+<br/>
+
 <h2 id="contributors">👥 Contributors</h2> 
 
 <a href="https://github.com/ahmettoguz" target="_blank"><img width=60 height=60 src="https://avatars.githubusercontent.com/u/101711642?v=4"></a> 
 
-[🔝](#top)
+### [🔝](#top)
