@@ -1,4 +1,4 @@
-<h1 id="top" align="center">🚢 Release Version 1.2.0</h1> 
+<h1 id="top" align="center">🚢 Release Version 1.2.1</h1> 
 
 <br/>
 
@@ -15,6 +15,8 @@
 
 <h2 id="features">🔥 Features</h2>
 
++ **TLS/HTTPS:** Centeralized TLS/HTTPS support for all services with selfsigned certificate.
++ **Postman Endpoint Collection:** Postman collection added for ensure validation of all API endpoints.
 + **External Communication:** Manage communication with frontend.
 + **Swagger Documentation:** Comprehensive API documentation integrated for easier development.
 + **Environment Variables:** Configurations have been adjusted for enhanced flexibility.
@@ -24,7 +26,6 @@
 
 <h2 id="next-release-features">🚧 Next Release Features</h2>
 
-- TLS/HTTPS support.
 - Database integration.
 - Automated tests.
 
