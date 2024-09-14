@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "6d92e9f2-d8bb-4a12-9085-6b07496c3559",
+		"name": "micro-backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26266539"
+	},
+	"item": [
+		{
+			"name": "health-check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "backend.localhost/health-check",
+					"host": [
+						"backend",
+						"localhost"
+					],
+					"path": [
+						"health-check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "health-check/info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "backend.localhost/health-check/info",
+					"host": [
+						"backend",
+						"localhost"
+					],
+					"path": [
+						"health-check",
+						"info"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
