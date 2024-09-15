@@ -10,7 +10,7 @@
   - [Developer Mode](#developer-mode)
   - [Production Mode](#production-mode)
 - [Endpoint Documentation](#endpoint-documentation)
-- [Endpoint Manual Testing with Postman](#endpoint-manual-test)
+- [Manuel Testing](#manuel-testing)
  
 <br/>
 
@@ -71,8 +71,8 @@ docker rm -f micro-backend-container
 
 <br/>
 
-<h2 id="endpoint-manual-test">🔬 Endpoint Manual Testing with Postman</h2>
+<h2 id="manuel-testing">🔬 Manual Testing</h2>
 
-To run the Postman tests, first import the Postman collection file from the path ./src/main/resources/postman-request/ into Postman by selecting the "Import" option. After importing, locate the collection in Postman, open it, and execute the individual requests by clicking the "Send" button for each. Review the responses to ensure that the endpoints are functioning as expected.
+To run the Postman tests, first import the Postman collection file from the path ./src/main/resources/postman-request/ into Postman by selecting the "Import" option. After importing, locate the collection in Postman, execute the individual requests for each. Review the responses to ensure that the endpoints are functioning as expected.
 
 ### [🔝](#top)
