@@ -101,8 +101,8 @@ docker rm -f micro-backend-container
 <h3 id="production-mode">⚡Production Mode</h3> 
 
 * Copy `application-dev.properties` to create `application-prod.properties`.
-* change `app.var.appMode` to `prod`.
-* change `server.port` to `80`.
+* Change `app.var.appMode` to `prod`.
+* Change `server.port` to `80`.
 * Follow the instructions in the [`Micro-Docker-Config repository`](https://github.com/ahmettoguz/Micro-Docker-Config) to configure Docker for production.
 
 <br/>
