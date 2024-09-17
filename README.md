@@ -66,6 +66,9 @@ docker rm -f micro-backend-container
 <br/>
 
 <h2 id="endpoint-documentation">📍 Endpoint Documentation</h2>
+You can access the full API documentation using Swagger UI.
+
+To view the documentation visit: [sw/swagger-ui/index.html](https://backend.localhost/sw/swagger-ui/index.html)
 
 ![endpoint-doc](https://github.com/user-attachments/assets/dd8aa4ac-a7f0-41aa-987d-d62f4c6f35ef)
 
