@@ -1,4 +1,4 @@
-<h1 id="top" align="center">🚢 Release Version 1.2.1</h1> 
+<h1 id="top" align="center">🚢 Release Version 1.3.0</h1> 
 
 <br/>
 
@@ -16,7 +16,7 @@
 
 <h2 id="features">🔥 Features</h2>
 
-+ **TLS/HTTPS:** Centeralized TLS/HTTPS support for all services with selfsigned certificate.
++ **TLS/HTTPS:** Centeralized TLS/HTTPS support for all services as automated.
 + **External Communication:** Manage communication with frontend.
 + **Postman Endpoint Collection:** Postman collection added for ensure validation of all API endpoints.
 + **Swagger Documentation:** Comprehensive API documentation integrated for documentation and testing purposes.
