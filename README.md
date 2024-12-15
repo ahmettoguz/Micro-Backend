@@ -4,6 +4,7 @@
 
 ## 🔍 Table of Contents
 
+- [Software Versions](#software-versions)
 - [Features](#features)
 - [Next Release Features](#next-release-features)
 - [System Startup](#system-startup)
@@ -11,6 +12,17 @@
   - [Production Mode](#production-mode)
 - [Endpoint Documentation](#endpoint-documentation)
 - [Manuel Testing](#manuel-testing)
+
+<br/>
+
+<h2 id="software-versions">🏷️ Software Versions</h2>
+
+| Software     | Version    |
+|--------------|------------|
+| Java         | 23         |
+| Spring Boot  | 3.4.0      |
+| Swagger      | 2.7.0      |
+
  
 <br/>
 
@@ -68,7 +80,7 @@ docker rm -f micro-backend-container
 <h2 id="endpoint-documentation">📍 Endpoint Documentation</h2>
 You can access the full API documentation using Swagger UI.
 
-To view the documentation visit: [`sw/swagger-ui/index.html`](https://backend.localhost/sw/swagger-ui/index.html)
+To view the documentation visit: [`sw/swagger-ui/index.html`](https://localhost/sw/swagger-ui/index.html)
 
 ![endpoint-doc](https://github.com/user-attachments/assets/dd8aa4ac-a7f0-41aa-987d-d62f4c6f35ef)
 
