@@ -17,14 +17,14 @@
   - [Developer Mode](#developer-mode)
   - [Production Mode](#production-mode)
 - [Endpoint Documentation](#endpoint-documentation)
-- [Manuel Testing](#manuel-testing)
+- [Manual Testing](#manual-testing)
 - [Contributors](#contributors)
  
 <br/>
 
 <h2 id="intro">📌 About Project</h2> 
 
-This Java Spring Boot application designed to manage API operations. It is fully dockerized for seamless deployment and scalability across environments. The project provides Swagger documentation for interactive API exploration and includes Postman collections for manual testing, allowing users to validate API behavior easily.
+This Java Spring Boot application is designed to manage API operations. It is fully dockerized for seamless deployment and scalability across environments. The project provides Swagger documentation for interactive API exploration and includes Postman collections for manual testing, allowing users to validate API behavior easily.
 
 <br/>
 
@@ -113,7 +113,7 @@ To view the documentation visit: [`sw/swagger-ui/index.html`](https://localhost/
 
 <br/>
 
-<h2 id="manuel-testing">🔬 Manual Testing</h2>
+<h2 id="manual-testing">🔬 Manual Testing</h2>
 
 To run the Postman tests, first import the Postman collection file from the path `./src/main/resources/postman-request/` into Postman by selecting the `Import` option. After importing, locate the collection in Postman, execute the individual requests for each. Review the responses to ensure that the endpoints are functioning as expected.
 
