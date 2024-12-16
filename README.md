@@ -11,7 +11,7 @@
   - [Developer Mode](#developer-mode)
   - [Production Mode](#production-mode)
 - [Endpoint Documentation](#endpoint-documentation)
-- [Manuel Testing](#manuel-testing)
+- [Manual Testing](#manual-testing)
 
 <br/>
 
@@ -28,8 +28,6 @@
 
 <h2 id="features">🔥 Features</h2>
 
-+ **TLS/HTTPS:** Centeralized TLS/HTTPS support for all services as automated.
-+ **External Communication:** Manage communication with frontend.
 + **Postman Endpoint Collection:** Postman collection added for ensure validation of all API endpoints.
 + **Swagger Documentation:** Comprehensive API documentation integrated for documentation and testing purposes.
 + **Environment Configuration:** Configurations have been adjusted for enhanced flexibility.
@@ -48,22 +46,8 @@
 
 <h3 id="developer-mode">🧪 Developer Mode</h3>
 
-#### Using command line
-
 ```
 mvnw spring-boot:run
-```
-
-#### Using Docker
-
-```
-docker build -t micro-backend-image .
-
-docker run -d -p 8081:80 --name micro-backend-container micro-backend-image
-
-docker ps -a
-
-docker rm -f micro-backend-container
 ```
 
 <br/>
@@ -86,8 +70,8 @@ To view the documentation visit: [`sw/swagger-ui/index.html`](https://localhost/
 
 <br/>
 
-<h2 id="manuel-testing">🔬 Manual Testing</h2>
+<h2 id="manual-testing">🔬 Manual Testing</h2>
 
-To run the Postman tests, first import the Postman collection file from the path ./src/main/resources/postman-request/ into Postman by selecting the "Import" option. After importing, locate the collection in Postman, execute the individual requests for each. Review the responses to ensure that the endpoints are functioning as expected.
+To run the Postman tests, first import the Postman collection file from the path `./src/main/resources/postman-request/` into Postman by selecting the `Import` option. After importing, locate the collection in Postman, execute the individual requests for each. Review the responses to ensure that the endpoints are functioning as expected.
 
 ### [🔝](#top)
