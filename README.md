@@ -55,8 +55,8 @@ mvnw spring-boot:run
 <h3 id="production-mode">⚡Production Mode</h3> 
 
 * Copy `application-dev.properties` to create `application-prod.properties`.
-* change `app.var.appMode` to `prod`.
-* change `server.port` to `80`.
+* Change `app.var.appMode` to `prod`.
+* Change `server.port` to `80`.
 * Follow the instructions in the [`Micro-Docker-Config repository`](https://github.com/ahmettoguz/Micro-Docker-Config) to configure Docker for production.
 
 <br/>
@@ -66,12 +66,12 @@ You can access the full API documentation using Swagger UI.
 
 To view the documentation visit: [`sw/swagger-ui/index.html`](https://localhost/sw/swagger-ui/index.html)
 
-![endpoint-doc](https://github.com/user-attachments/assets/dd8aa4ac-a7f0-41aa-987d-d62f4c6f35ef)
+![endpoint-doc](assets/endpoint-doc/endpoint-doc.png)
 
 <br/>
 
 <h2 id="manual-testing">🔬 Manual Testing</h2>
 
-To run the Postman tests, first import the Postman collection file from the path `./src/main/resources/postman-request/` into Postman by selecting the `Import` option. After importing, locate the collection in Postman, execute the individual requests for each. Review the responses to ensure that the endpoints are functioning as expected.
+To run the Postman tests, first import the Postman collection file from the path `assets/postman-request` into Postman by selecting the `Import` option. After importing, locate the collection in Postman, execute the individual requests for each. Review the responses to ensure that the endpoints are functioning as expected.
 
 ### [🔝](#top)
