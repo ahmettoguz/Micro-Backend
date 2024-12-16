@@ -22,6 +22,7 @@
 | Java         | 23         |
 | Spring Boot  | 3.4.0      |
 | Swagger      | 2.7.0      |
+| Apache Maven | 3.9.5      |
 
  
 <br/>
