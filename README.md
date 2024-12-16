@@ -24,7 +24,7 @@
 
 <h2 id="intro">📌 About Project</h2> 
 
-This project efficiently manages backend operations via Docker and microservices, enhanced by TLS for secure communication. Docker isolates services, boosting scalability and maintainability. Microservices enable small, independent units to communicate securely through well-defined APIs, simplified by TLS encryption. 
+This Java Spring Boot application designed to manage API operations. It is fully dockerized for seamless deployment and scalability across environments. The project provides Swagger documentation for interactive API exploration and includes Postman collections for manual testing, allowing users to validate API behavior easily.
 
 <br/>
 
@@ -64,8 +64,6 @@ This project efficiently manages backend operations via Docker and microservices
 
 <h2 id="features">🔥 Features</h2>
 
-+ **TLS/HTTPS:** Centeralized TLS/HTTPS support for all services as automated.
-+ **External Communication:** Manage communication with frontend.
 + **Postman Endpoint Collection:** Postman collection added for ensure validation of all API endpoints.
 + **Swagger Documentation:** Comprehensive API documentation integrated for documentation and testing purposes.
 + **Environment Configuration:** Configurations have been adjusted for enhanced flexibility.
@@ -91,22 +89,8 @@ This project efficiently manages backend operations via Docker and microservices
 
 <h3 id="developer-mode">🧪 Developer Mode</h3>
 
-#### Using command line
-
 ```
 mvnw spring-boot:run
-```
-
-#### Using Docker
-
-```
-docker build -t micro-backend-image .
-
-docker run -d -p 8081:80 --name micro-backend-container micro-backend-image
-
-docker ps -a
-
-docker rm -f micro-backend-container
 ```
 
 <br/>
@@ -131,7 +115,7 @@ To view the documentation visit: [`sw/swagger-ui/index.html`](https://localhost/
 
 <h2 id="manuel-testing">🔬 Manual Testing</h2>
 
-To run the Postman tests, first import the Postman collection file from the path ./src/main/resources/postman-request/ into Postman by selecting the "Import" option. After importing, locate the collection in Postman, execute the individual requests for each. Review the responses to ensure that the endpoints are functioning as expected.
+To run the Postman tests, first import the Postman collection file from the path `./src/main/resources/postman-request/` into Postman by selecting the `Import` option. After importing, locate the collection in Postman, execute the individual requests for each. Review the responses to ensure that the endpoints are functioning as expected.
 
 <br/>
 
