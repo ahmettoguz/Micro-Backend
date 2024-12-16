@@ -46,6 +46,10 @@ This Java Spring Boot application is designed to manage API operations. It is fu
 
 &nbsp; [![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white)](https://swagger.io/)
 
+### Build Tools
+
+&nbsp; [![Apache Maven](https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+
 ### Test
 
 &nbsp; [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
@@ -59,6 +63,7 @@ This Java Spring Boot application is designed to manage API operations. It is fu
 | Java         | 23         |
 | Spring Boot  | 3.4.0      |
 | Swagger      | 2.7.0      |
+| Apache Maven | 3.9.5      |
 
 <br/>
 
